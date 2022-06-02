@@ -1,0 +1,57 @@
+*{
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+ 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  border: 2px solid #352d2e;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 40%;
+  margin-top: 10px;
+}
+
+select {
+  width: 100%;
+} 
+
+fieldset{
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.enviar{
+  background-color: #2c6fbd;
+  color: white;
+}
+
+.cancelar{
+  background-color: #f74e4e;
+  color: white;
+}
+
+button{
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  padding: 4px;
+}
+

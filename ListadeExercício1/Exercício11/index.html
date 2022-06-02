@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Formulário</title>
+</head>
+<body>
+  <h1>Formulário de Cadastro</h1>
+  
+  <div class="container">
+  <form>
+    <label>Nome</label><input type="text">
+    <label>Sobrenome</label><input type="text">
+    <label>Data de Nascimento</label><input type="date">
+    <label>E-mail</label><input type="email">
+    <label>Telefone</label><input type="text">
+    <label>CPF</label><input type="text">
+    
+    <label>Tecnologia de preferência</label>
+    <fieldset>
+      <input type="radio" name="option"><label>HTML</label>
+      <input type="radio" name="option"><label>Css</label>
+      <input type="radio" name="option"><label>JavaScript</label>
+    </fieldset>
+
+    <label>Área de atuação
+      <select>
+        <option>Front-End</option>
+      </select>
+    </label>
+    <label>Nome de usuário</label><input type="text">
+    <label>Senha</label><input type="password">
+
+    <footer>
+    <button class="enviar">Enviar!</button>
+    <button class="cancelar">Cancelar</button>
+    </footer>
+   
+  </form>
+  </div>
+</body>
+</html>

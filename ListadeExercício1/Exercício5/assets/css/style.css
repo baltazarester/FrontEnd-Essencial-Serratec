@@ -1,0 +1,36 @@
+h1{
+  text-align: center;
+}
+
+.img-1{
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section{
+  width: 100%;
+  display: flex;
+}
+.section-1{
+  width: 70%;
+}
+
+.section-2{
+  width: 30%;
+}
+
+.subsection-1{
+  display: flex;
+}
+
+.img-2{
+  width: 20%;
+}
+
+.img-3{
+  width: 100%;
+  height: auto;
+}

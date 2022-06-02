@@ -1,0 +1,147 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Arial, sans-serif;
+ font-weight: 600;
+ font-size: 25px;
+}
+
+header{
+  width: 100%;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+footer{
+width: 100%;
+background-color: #c4c4c4;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin-top: 50px;
+}
+
+main{
+  display: flex;
+  width: 100%;
+  padding: 0 150px;
+  margin-top: 50px;
+  gap:250px;
+}
+
+.section-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+}
+#one{
+  height: 180px;
+  width:120px;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#two{
+  height: 180px;
+  width: 120px;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#three{
+  height: 180px;
+  width:120px;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#six{
+  width: 100%;
+  height: 300px;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-1{
+  display:flex;
+ justify-content: space-between;
+}
+
+.section-2{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.line-2{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#four{
+  height: 180px;
+  width:155px;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#five{
+  height: 180px;
+  width:155px;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-3{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#seven{
+  height: 180px;
+  width:155px;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#eight{
+  height: 180px;
+  width:155px;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nine{
+  width: 100%;
+  height: 110px;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
